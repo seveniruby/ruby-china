@@ -101,4 +101,6 @@ RubyChina::Application.routes.draw do
     end
   end
 
+  get "news/index"
+
 end

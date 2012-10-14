@@ -1,0 +1,22 @@
+<%@entries.each do |entry|%>
+	<%id+=1%>
+	<div class="accordion-group">
+		<div class="accordion-heading">
+			<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapse<%=id%>">
+				<%=entry["title"]%>
+			</a>
+		</div>
+		<div id="collapse<%=id%>" class="accordion-body collapse" style="height: 0px; ">
+			<div class="accordion-inner">
+				<div class="alert alert-success">
+					<%=entry["contentSnippet"]%>
+				</div>
+				<%=entry["content"]%>
+				<div>
+					<a  class="btn" href="<%=entry["link"]%>" >原文</a>
+					<a  class="btn" href="http://www.testerhome.com/topics/new?topic[title]=<%=entry["title"]%>&topic[body]=Link+<%=entry["link"]%>%0D%0A%0D%0A<%=entry["contentSnippet"]%>" >分享到论坛</a>
+				</div>
+			</div>
+		</div>
+	</div>
+<%end%>
