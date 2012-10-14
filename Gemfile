@@ -41,6 +41,10 @@ gem 'bootstrap_helper', "1.4.1"
 # 三方平台 OAuth 验证登陆
 gem "omniauth", "~> 1.0.1"
 gem "omniauth-github", "~> 1.0.0"
+gem 'omniauth-qq-connect'
+#gem 'omniauth-weibo'
+gem 'omniauth-weibo-oauth2'
+
 
 # permission
 gem "cancan", "~> 1.6.7"

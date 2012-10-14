@@ -209,6 +209,12 @@ GEM
     omniauth-oauth2 (1.0.0)
       oauth2 (~> 0.5.0)
       omniauth (~> 1.0)
+    omniauth-qq-connect (0.2.0)
+      omniauth (~> 1.0)
+      omniauth-oauth2 (~> 1.0)
+    omniauth-weibo-oauth2 (0.2.0)
+      omniauth (~> 1.0)
+      omniauth-oauth2 (~> 1.0)
     origin (1.0.4)
     orm_adapter (0.0.7)
     polyglot (0.3.3)
@@ -368,6 +374,8 @@ DEPENDENCIES
   mongoid_rails_migrations (~> 0.0.14)
   omniauth (~> 1.0.1)
   omniauth-github (~> 1.0.0)
+  omniauth-qq-connect
+  omniauth-weibo-oauth2
   pygments.rb (~> 0.2.4)
   quiet_assets (= 1.0.1)
   rails (= 3.2.7)

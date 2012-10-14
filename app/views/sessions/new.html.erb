@@ -30,6 +30,8 @@
         <h2>用其他平台的帐号登录</h2>
         <ul>
           <li><%= link_to "Github", user_omniauth_authorize_path(:github) %> </li>
+          <li><%= link_to "QQ", user_omniauth_authorize_path(:qq_connect) %> </li>
+          <li><%= link_to "Weibo", user_omniauth_authorize_path(:weibo) %> </li>
         </ul>
     </div>
 </div>
