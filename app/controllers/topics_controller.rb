@@ -1,6 +1,7 @@
 # coding: utf-8
 class TopicsController < ApplicationController
 
+  skip_before_filter :verify_authenticity_token, :only => [:create]
   load_and_authorize_resource :only => [:new,:edit,:create,:update,:destroy,:favorite, :follow, :unfollow]
 
   before_filter :set_menu_active

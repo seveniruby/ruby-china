@@ -61,8 +61,3 @@ module RubyChina
     # end
   end
 end
-
-I18n.locale = 'zh-CN'
-
-
-

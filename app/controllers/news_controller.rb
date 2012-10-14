@@ -1,6 +1,5 @@
 class NewsController < ApplicationController
 	def index
-		AppConfig[:feed_get_time]||=Time.now-100
 		if Time.now-AppConfig[:feed_get_time]>60
 			require 'open-uri'
 			@entries=JSON.parse(open(AppConfig[:feed_url]).read)["responseData"]["feed"]["entries"]
@@ -9,5 +8,6 @@ class NewsController < ApplicationController
 		else
 			@entries=AppConfig[:feed]
 		end
+
 	end
 end

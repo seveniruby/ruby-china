@@ -1,3 +1,6 @@
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="http://twitter.github.com/bootstrap/assets/js/bootstrap.min.js"></script>
+<div class="accordion" id="accordion2">
 <%id=0%>
 <%@entries.each do |entry|%>
 	<%id+=1%>
@@ -12,12 +15,23 @@
 				<div class="alert alert-success">
 					<%=entry["contentSnippet"]%>
 				</div>
-				<%=entry["content"]%>
+				<% content=entry["content"].gsub(/<.*?>/,'')%>
+				<%=content%>
 				<div>
 					<a  class="btn" href="<%=entry["link"]%>" >原文</a>
-					<a  class="btn" href="http://www.testerhome.com/topics/new?topic[title]=<%=entry["title"]%>&topic[body]=Link+<%=entry["link"]%>%0D%0A%0D%0A<%=entry["contentSnippet"]%>" >分享到论坛</a>
+<form action='http://www.testerhome.com/topics/new?node=3' method='post' >
+    <input  type="hidden" name="news[title]" value="<%=entry["title"]%>" >
+    <input  type="hidden" name="news[body]" value="Link  <%=entry["link"]%>
+
+<%=content%>
+
+Link  <%=entry["link"]%>" >
+<input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>"/>
+  <button type="submit" class="btn">分享到论坛</button>
+</form>
 				</div>
 			</div>
 		</div>
 	</div>
 <%end%>
+</div>

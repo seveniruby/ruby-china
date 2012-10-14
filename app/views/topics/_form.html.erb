@@ -1,4 +1,12 @@
-<%= simple_form_for @topic do |f| %>
+<% if params[:news]
+require 'digest/md5'
+@form_id=Digest::MD5.hexdigest(params[:news][:title].to_s)
+else
+@form_id='new_topic'
+end
+
+%>
+<%= simple_form_for @topic, :html=>{:id=>@form_id}  do |f| %>
   <%= render "shared/error_messages", :target => @topic %>
   <fieldset>
     <legend><%= @topic.new_record? ? t("topics.create_topic") : t("topics.edit_topic") %></legend>
@@ -6,7 +14,7 @@
       <span class="node_select span2">
         <%= render_topic_node_select_tag(@topic) %>
       </span>
-      <%= f.text_field :title, :class => "span4" , :value=>params[:topic]?params[:topic][:title]:""%>
+      <%= f.text_field :title, :class => "span4" , :value=>request.POST[:news]?request.POST[:news][:title]:""%>
     <% end %>
 
     <div class="control-group edit_tools">
@@ -15,7 +23,7 @@
         <%= render "editor_toolbar" %>
       </div>
     </div>
-    <%= f.input :body, :as => :text, :input_html => { :class => "topic_editor closewarning xxlarge", :style => "height:300px" , :value=>params[:topic]?params[:topic][:body]:"" }%>
+    <%= f.input :body, :as => :text, :input_html => { :class => "topic_editor closewarning xxlarge", :style => "height:300px" , :value=>request.POST[:news]?request.POST[:news][:body]:"" }%>
 
     <div class="form-actions">
       <%= f.submit t("common.save"), :class => "btn btn-primary", 'data-disable-with' => t("common.saving") %>
@@ -23,3 +31,4 @@
     </div>
   </fieldset>
 <% end %>
+
