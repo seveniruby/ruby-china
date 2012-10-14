@@ -6,7 +6,7 @@
       <span class="node_select span2">
         <%= render_topic_node_select_tag(@topic) %>
       </span>
-      <%= f.text_field :title, :class => "span4" %>
+      <%= f.text_field :title, :class => "span4" , :value=>params[:topic]?params[:topic][:title]:""%>
     <% end %>
 
     <div class="control-group edit_tools">
@@ -15,7 +15,7 @@
         <%= render "editor_toolbar" %>
       </div>
     </div>
-    <%= f.input :body, :as => :text, :input_html => { :class => "topic_editor closewarning xxlarge", :style => "height:400px" }%>
+    <%= f.input :body, :as => :text, :input_html => { :class => "topic_editor closewarning xxlarge", :style => "height:300px" , :value=>params[:topic]?params[:topic][:body]:"" }%>
 
     <div class="form-actions">
       <%= f.submit t("common.save"), :class => "btn btn-primary", 'data-disable-with' => t("common.saving") %>
