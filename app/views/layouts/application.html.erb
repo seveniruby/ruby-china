@@ -36,7 +36,7 @@
     <div class="navbar-inner">
       <div class="container">
         <h3>
-          <a href="/"><%= image_tag("text_logo.png") %></a>
+          <a href="/"><%= image_tag("text_logo.png", :size => "122x37") %></a>
         </h3>
         <%= render_list :class => "nav" do |li|
            li << link_to(t("menu.topics"), topics_path)
