@@ -1,6 +1,8 @@
 <% if params[:news]
 require 'digest/md5'
 @form_id=Digest::MD5.hexdigest(params[:news][:title].to_s)
+@topic.title=params[:news][:title]
+@topic.body="#{params[:news][:body]}\n\n#{params[:news][:link]}"
 else
 @form_id='new_topic'
 end
@@ -14,7 +16,7 @@ end
       <span class="node_select span2">
         <%= render_topic_node_select_tag(@topic) %>
       </span>
-      <%= f.text_field :title, :class => "span4" , :value=>params[:news]?params[:news][:title]:""%>
+      <%= f.text_field :title, :class => "span4" %>
     <% end %>
 
     <div class="control-group edit_tools">
@@ -23,7 +25,7 @@ end
         <%= render "editor_toolbar" %>
       </div>
     </div>
-    <%= f.input :body, :as => :text, :input_html => { :class => "topic_editor closewarning xxlarge", :style => "height:300px" , :value=>params[:news]?"#{params[:news][:body]}\n\n#{params[:news][:link]}":"" } %>
+    <%= f.input :body, :as => :text, :input_html => { :class => "topic_editor closewarning xxlarge", :style => "height:300px" } %>
 
     <div class="form-actions">
       <%= f.submit t("common.save"), :class => "btn btn-primary", 'data-disable-with' => t("common.saving") %>

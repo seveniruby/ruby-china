@@ -12,6 +12,7 @@ config/database.yml
 config/mongoid.yml
 config/thin.yml
 config/redis.yml
+config/config.yml
 config/mailer_daemon.yml
 public/uploads/**/*
 public/topics
