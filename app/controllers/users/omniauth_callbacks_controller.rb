@@ -22,7 +22,7 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
     end
   end
 
-  provides_callback_for :github, :twitter, :douban, :google, :qq_connect, :weibo
+  provides_callback_for :github, :twitter, :douban, :google
   #provides_callback_for :github, :twitter, :douban, :google
 
   # This is solution for existing accout want bind Google login but current_user is always nil

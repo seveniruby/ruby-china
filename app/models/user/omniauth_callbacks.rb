@@ -2,7 +2,7 @@
 class User
   module OmniauthCallbacks
     #["github","google","twitter","douban"].each do |provider|
-    ["github","google","twitter","douban","qq_connect","weibo"].each do |provider|
+    ["github","google","twitter","douban"].each do |provider|
       define_method "find_or_create_for_#{provider}" do |response|
         uid = response["uid"].to_s
         data = response["info"]
@@ -27,14 +27,6 @@ class User
     end
 
     def new_from_provider_data(provider, uid, data)
-logger.info "callback"
-logger.info uid
-logger.info provider
-logger.info data
-logger.info data['email']
-logger.info data['email'].present?
-logger.info User.where(:email => data["email"]).exists?
-
       User.new do |user|
         if data["email"].present? && !User.where(:email => data["email"]).exists?
           user.email = data["email"]
