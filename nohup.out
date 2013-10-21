@@ -1,0 +1,448 @@
+W, [2013-10-20T15:43:01.686749 #4439]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:43:04.021562 #4439]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:43:04.964720 #4439]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:43:04.997487 #4439]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:43:05.035541 #4439]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:43:05.072608 #4439]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:43:05.109381 #4439]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:43:05.146071 #4439]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:43:05.149931 #4439]  WARN -- : Overwriting existing field _type.
+W, [2013-10-20T15:43:05.152266 #4439]  WARN -- : Overwriting existing field _type.
+W, [2013-10-20T15:43:05.185259 #4439]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:43:05.218680 #4439]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:43:05.331945 #4439]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:43:05.336390 #4439]  WARN -- : Overwriting existing field image.
+W, [2013-10-20T15:43:05.372782 #4439]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:43:05.413395 #4439]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:43:05.448651 #4439]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:43:05.481736 #4439]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:43:05.513487 #4439]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:43:05.549922 #4439]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:43:05.559384 #4439]  WARN -- : Overwriting existing field last_reply_id.
+2013-10-20T07:43:05Z 4439 TID-6seio INFO: Booting Sidekiq 2.5.3 with Redis at redis://127.0.0.1:6379/0
+2013-10-20T07:43:05Z 4439 TID-6seio INFO: Running in ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-linux]
+2013-10-20T07:43:05Z 4439 TID-6seio INFO: See LICENSE and the LGPL-3.0 for licensing details.
+2013-10-20T07:43:05Z 4439 TID-6seio INFO: Starting processing, hit Ctrl-C to stop
+can't be called from trap context
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:97:in `synchronize'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:97:in `interrupt'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:9:in `block in <top (required)>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:84:in `call'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:84:in `sleep'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:84:in `run'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/bin/sidekiq:8:in `<top (required)>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/bin/sidekiq:23:in `load'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/bin/sidekiq:23:in `<main>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/bin/ruby_executable_hooks:15:in `eval'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/bin/ruby_executable_hooks:15:in `<main>'
+W, [2013-10-20T15:52:52.005409 #4579]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:52:54.212164 #4579]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:52:54.964271 #4579]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:52:55.052487 #4579]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:52:55.085291 #4579]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:52:55.115001 #4579]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:52:55.141388 #4579]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:52:55.169276 #4579]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:52:55.172814 #4579]  WARN -- : Overwriting existing field _type.
+W, [2013-10-20T15:52:55.174790 #4579]  WARN -- : Overwriting existing field _type.
+W, [2013-10-20T15:52:55.201993 #4579]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:52:55.232850 #4579]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:52:55.259768 #4579]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:52:55.325541 #4579]  WARN -- : Overwriting existing field image.
+W, [2013-10-20T15:52:55.355355 #4579]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:52:55.388305 #4579]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:52:55.415653 #4579]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:52:55.443645 #4579]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:52:55.468934 #4579]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:52:55.494872 #4579]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T15:52:55.502617 #4579]  WARN -- : Overwriting existing field last_reply_id.
+2013-10-20T07:52:55Z 4579 TID-9mlbw INFO: Booting Sidekiq 2.5.3 with Redis at redis://127.0.0.1:6379/0
+2013-10-20T07:52:55Z 4579 TID-9mlbw INFO: Running in ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-linux]
+2013-10-20T07:52:55Z 4579 TID-9mlbw INFO: See LICENSE and the LGPL-3.0 for licensing details.
+2013-10-20T07:52:55Z 4579 TID-9mlbw INFO: Starting processing, hit Ctrl-C to stop
+2013-10-20T07:56:57Z 4579 TID-v52h0 Sidekiq::Extensions::DelayedMailer JID-ab0308ad8ae8b342c345e5f0 INFO: start
+2013-10-20T07:56:57Z 4579 TID-v52h0 Sidekiq::Extensions::DelayedMailer JID-ab0308ad8ae8b342c345e5f0 INFO: done: 0.076 sec
+2013-10-20T08:03:29Z 4579 TID-v52h0 Sidekiq::Extensions::DelayedMailer JID-7cd6a59918142fef6743c7db INFO: start
+2013-10-20T08:03:29Z 4579 TID-v52h0 Sidekiq::Extensions::DelayedMailer JID-7cd6a59918142fef6743c7db INFO: done: 0.006 sec
+2013-10-20T08:03:47Z 4579 TID-v52h0 Sidekiq::Extensions::DelayedMailer JID-1cc7b92afa8070faf89a46b9 INFO: start
+2013-10-20T08:03:47Z 4579 TID-v52h0 Sidekiq::Extensions::DelayedMailer JID-1cc7b92afa8070faf89a46b9 INFO: done: 0.002 sec
+2013-10-20T08:08:51Z 4579 TID-v52h0 Sidekiq::Extensions::DelayedMailer JID-d7f0e5e87ea14b42d88e4a7e INFO: start
+2013-10-20T08:08:51Z 4579 TID-v52h0 Sidekiq::Extensions::DelayedMailer JID-d7f0e5e87ea14b42d88e4a7e INFO: done: 0.004 sec
+2013-10-20T08:21:59Z 4579 TID-v52h0 Sidekiq::Extensions::DelayedMailer JID-7d2dd89bf282db5fdf6c2a37 INFO: start
+2013-10-20T08:21:59Z 4579 TID-v52h0 Sidekiq::Extensions::DelayedMailer JID-7d2dd89bf282db5fdf6c2a37 INFO: done: 0.003 sec
+2013-10-20T08:30:23Z 4579 TID-v52h0 Sidekiq::Extensions::DelayedMailer JID-36e298cfb7a3005c6759340a INFO: start
+2013-10-20T08:30:23Z 4579 TID-v52h0 Sidekiq::Extensions::DelayedMailer JID-36e298cfb7a3005c6759340a INFO: done: 0.003 sec
+2013-10-20T08:49:31Z 4579 TID-v52h0 Sidekiq::Extensions::DelayedMailer JID-1dec0f4cbee03fd2dc94e2f6 INFO: start
+2013-10-20T08:49:31Z 4579 TID-v52h0 Sidekiq::Extensions::DelayedMailer JID-1dec0f4cbee03fd2dc94e2f6 INFO: done: 0.003 sec
+2013-10-20T13:20:52Z 4579 TID-v52h0 Mongoid::DelayedDocument JID-9bf16f62dd9c333b8d3a701c INFO: start
+2013-10-20T13:20:52Z 4579 TID-v52h0 Mongoid::DelayedDocument JID-9bf16f62dd9c333b8d3a701c INFO: done: 0.104 sec
+2013-10-20T13:44:28Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T13:44:28Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T13:44:28Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T13:44:28Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T13:44:28Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T13:44:28Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T13:44:28Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T13:44:28Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T13:44:28Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T13:44:28Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T14:09:27Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T14:09:27Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T14:09:27Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T14:09:27Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T14:09:27Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T14:09:27Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T14:09:27Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T14:09:27Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T14:09:27Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T14:09:27Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T14:22:38Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T14:22:38Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T14:22:38Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T14:22:38Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T14:22:38Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T14:22:38Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T14:22:38Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T14:22:38Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T14:22:38Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T14:22:38Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T14:44:50Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T14:44:50Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T14:44:50Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T14:44:50Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T14:44:50Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T14:44:50Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T14:44:50Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T14:44:50Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T14:44:50Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T14:44:50Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T15:22:55Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T15:22:56Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T15:22:56Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T15:22:56Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T15:22:56Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T15:22:56Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T15:22:56Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T15:22:56Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T15:22:56Z 4579 TID-11qeik ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T15:22:56Z 4579 TID-11qeik ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+can't be called from trap context
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:97:in `synchronize'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:97:in `interrupt'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:9:in `block in <top (required)>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:84:in `call'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:84:in `sleep'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:84:in `run'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/bin/sidekiq:8:in `<top (required)>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/bin/sidekiq:23:in `load'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/bin/sidekiq:23:in `<main>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/bin/ruby_executable_hooks:15:in `eval'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/bin/ruby_executable_hooks:15:in `<main>'
+2013-10-20T15:22:56Z 4579 TID-11qeik WARN: {:context=>"Fetcher#fetch died"}
+2013-10-20T15:22:56Z 4579 TID-11qeik WARN: task was terminated
+2013-10-20T15:22:56Z 4579 TID-11qeik WARN: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/tasks/task_fiber.rb:36:in `suspend'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/task.rb:22:in `suspend'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/actor.rb:311:in `sleep'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid.rb:370:in `sleep'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:45:in `rescue in block in fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:34:in `block in fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/util.rb:15:in `watchdog'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:31:in `fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:40:in `block (2 levels) in fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/tasks/task_fiber.rb:22:in `block in initialize'
+2013-10-20T15:22:56Z 4579 TID-11qeik WARN: {:context=>"Fetcher#fetch died"}
+2013-10-20T15:22:56Z 4579 TID-11qeik WARN: task was terminated
+2013-10-20T15:22:56Z 4579 TID-11qeik WARN: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/tasks/task_fiber.rb:36:in `suspend'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/task.rb:22:in `suspend'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/actor.rb:311:in `sleep'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid.rb:370:in `sleep'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:45:in `rescue in block in fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:34:in `block in fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/util.rb:15:in `watchdog'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:31:in `fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:40:in `block (2 levels) in fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/tasks/task_fiber.rb:22:in `block in initialize'
+2013-10-20T15:22:56Z 4579 TID-11qeik WARN: {:context=>"Fetcher#fetch died"}
+2013-10-20T15:22:56Z 4579 TID-11qeik WARN: task was terminated
+2013-10-20T15:22:56Z 4579 TID-11qeik WARN: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/tasks/task_fiber.rb:36:in `suspend'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/task.rb:22:in `suspend'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/actor.rb:311:in `sleep'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid.rb:370:in `sleep'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:45:in `rescue in block in fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:34:in `block in fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/util.rb:15:in `watchdog'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:31:in `fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:40:in `block (2 levels) in fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/tasks/task_fiber.rb:22:in `block in initialize'
+2013-10-20T15:22:56Z 4579 TID-11qeik WARN: {:context=>"Fetcher#fetch died"}
+2013-10-20T15:22:56Z 4579 TID-11qeik WARN: task was terminated
+2013-10-20T15:22:56Z 4579 TID-11qeik WARN: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/tasks/task_fiber.rb:36:in `suspend'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/task.rb:22:in `suspend'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/actor.rb:311:in `sleep'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid.rb:370:in `sleep'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:45:in `rescue in block in fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:34:in `block in fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/util.rb:15:in `watchdog'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:31:in `fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:40:in `block (2 levels) in fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/tasks/task_fiber.rb:22:in `block in initialize'
+2013-10-20T15:22:56Z 4579 TID-11qeik WARN: {:context=>"Fetcher#fetch died"}
+2013-10-20T15:22:56Z 4579 TID-11qeik WARN: task was terminated
+2013-10-20T15:22:56Z 4579 TID-11qeik WARN: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/tasks/task_fiber.rb:36:in `suspend'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/task.rb:22:in `suspend'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/actor.rb:311:in `sleep'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid.rb:370:in `sleep'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:45:in `rescue in block in fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:34:in `block in fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/util.rb:15:in `watchdog'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:31:in `fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/fetch.rb:40:in `block (2 levels) in fetch'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/tasks/task_fiber.rb:22:in `block in initialize'
+W, [2013-10-20T23:26:09.310894 #3593]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T23:26:14.082512 #3593]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T23:26:15.028900 #3593]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T23:26:15.058166 #3593]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T23:26:15.092780 #3593]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T23:26:15.128215 #3593]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T23:26:15.159371 #3593]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T23:26:15.192319 #3593]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T23:26:15.196473 #3593]  WARN -- : Overwriting existing field _type.
+W, [2013-10-20T23:26:15.198710 #3593]  WARN -- : Overwriting existing field _type.
+W, [2013-10-20T23:26:15.227502 #3593]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T23:26:15.336213 #3593]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T23:26:15.367592 #3593]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T23:26:15.372393 #3593]  WARN -- : Overwriting existing field image.
+W, [2013-10-20T23:26:15.407336 #3593]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T23:26:15.440311 #3593]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T23:26:15.472075 #3593]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T23:26:15.503985 #3593]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T23:26:15.532141 #3593]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T23:26:15.562969 #3593]  WARN -- : Overwriting existing field _id.
+W, [2013-10-20T23:26:15.572609 #3593]  WARN -- : Overwriting existing field last_reply_id.
+2013-10-20T15:26:15Z 3593 TID-3z3b8 INFO: Booting Sidekiq 2.5.3 with Redis at redis://127.0.0.1:6379/0
+2013-10-20T15:26:15Z 3593 TID-3z3b8 INFO: Running in ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-linux]
+2013-10-20T15:26:15Z 3593 TID-3z3b8 INFO: See LICENSE and the LGPL-3.0 for licensing details.
+2013-10-20T15:26:15Z 3593 TID-3z3b8 INFO: Starting processing, hit Ctrl-C to stop
+2013-10-20T19:52:34Z 3593 TID-wanz0 ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T19:52:34Z 3593 TID-wanz0 ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T19:52:34Z 3593 TID-wanz0 ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T19:52:34Z 3593 TID-wanz0 ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T19:52:34Z 3593 TID-wanz0 ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T19:52:34Z 3593 TID-wanz0 ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T19:52:34Z 3593 TID-wanz0 ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T19:52:34Z 3593 TID-wanz0 ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T19:52:34Z 3593 TID-wanz0 ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T19:52:34Z 3593 TID-wanz0 ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T22:51:42Z 3593 TID-pa2yo Mongoid::DelayedDocument JID-6334d72574fa557ab36f72d0 INFO: start
+2013-10-20T22:51:42Z 3593 TID-pa2yo Mongoid::DelayedDocument JID-6334d72574fa557ab36f72d0 INFO: done: 0.084 sec
+2013-10-20T22:59:35Z 3593 TID-pa2yo Sidekiq::Extensions::DelayedMailer JID-5b215cd7218948af6dc6705f INFO: start
+2013-10-20T22:59:35Z 3593 TID-pa2yo Sidekiq::Extensions::DelayedMailer JID-5b215cd7218948af6dc6705f INFO: done: 0.248 sec
+W, [2013-10-21T07:02:41.354543 #11009]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:02:45.719743 #11009]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:02:47.155282 #11009]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:02:47.186447 #11009]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:02:47.287811 #11009]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:02:47.325601 #11009]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:02:47.358503 #11009]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:02:47.390466 #11009]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:02:47.394607 #11009]  WARN -- : Overwriting existing field _type.
+W, [2013-10-21T07:02:47.396988 #11009]  WARN -- : Overwriting existing field _type.
+W, [2013-10-21T07:02:47.428164 #11009]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:02:47.460430 #11009]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:02:47.491414 #11009]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:02:47.496389 #11009]  WARN -- : Overwriting existing field image.
+W, [2013-10-21T07:02:47.597137 #11009]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:02:47.632423 #11009]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:02:47.659168 #11009]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:02:47.691092 #11009]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:02:47.719555 #11009]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:02:47.749311 #11009]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:02:47.756725 #11009]  WARN -- : Overwriting existing field last_reply_id.
+2013-10-20T23:02:47Z 11009 TID-38eic INFO: Booting Sidekiq 2.5.3 with Redis at redis://127.0.0.1:6379/0
+2013-10-20T23:02:47Z 11009 TID-38eic INFO: Running in ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-linux]
+2013-10-20T23:02:47Z 11009 TID-38eic INFO: See LICENSE and the LGPL-3.0 for licensing details.
+2013-10-20T23:02:47Z 11009 TID-38eic INFO: Starting processing, hit Ctrl-C to stop
+can't be called from trap context
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:97:in `synchronize'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:97:in `interrupt'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:4:in `block in <top (required)>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:84:in `call'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:84:in `sleep'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:84:in `run'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/bin/sidekiq:8:in `<top (required)>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/bin/sidekiq:23:in `load'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/bin/sidekiq:23:in `<main>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/bin/ruby_executable_hooks:15:in `eval'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/bin/ruby_executable_hooks:15:in `<main>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:97:in `synchronize': can't be called from trap context (ThreadError)
+	from /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:97:in `interrupt'
+	from /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:4:in `block in <top (required)>'
+	from /home/rails/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/thread.rb:72:in `call'
+	from /home/rails/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/thread.rb:72:in `sleep'
+	from /home/rails/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/thread.rb:72:in `block (2 levels) in wait'
+	from /home/rails/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/thread.rb:68:in `handle_interrupt'
+	from /home/rails/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/thread.rb:68:in `block in wait'
+	from /home/rails/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/thread.rb:66:in `handle_interrupt'
+	from /home/rails/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/thread.rb:66:in `wait'
+	from /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/thread_handle.rb:40:in `block in join'
+	from /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/thread_handle.rb:40:in `synchronize'
+	from /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/thread_handle.rb:40:in `join'
+	from /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid/actor.rb:157:in `join'
+	from /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid.rb:73:in `block (2 levels) in shutdown'
+	from /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid.rb:71:in `each'
+	from /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid.rb:71:in `block in shutdown'
+	from /home/rails/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/timeout.rb:66:in `timeout'
+	from /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid.rb:56:in `shutdown'
+	from /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/celluloid-0.12.3/lib/celluloid.rb:89:in `block in <module:Celluloid>'
+can't be called from trap context
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:97:in `synchronize'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:97:in `interrupt'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:4:in `block in <top (required)>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/tilt-1.4.1/lib/tilt/template.rb:2:in `call'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/tilt-1.4.1/lib/tilt/template.rb:2:in `<module:Tilt>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/tilt-1.4.1/lib/tilt/template.rb:1:in `<top (required)>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/tilt-1.4.1/lib/tilt/string.rb:1:in `require'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/tilt-1.4.1/lib/tilt/string.rb:1:in `<top (required)>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/tilt-1.4.1/lib/tilt.rb:138:in `require'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/tilt-1.4.1/lib/tilt.rb:138:in `<module:Tilt>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/tilt-1.4.1/lib/tilt.rb:1:in `<top (required)>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sprockets-2.10.0/lib/sprockets/eco_template.rb:1:in `require'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sprockets-2.10.0/lib/sprockets/eco_template.rb:1:in `<top (required)>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sprockets-2.10.0/lib/sprockets/engines.rb:1:in `require'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sprockets-2.10.0/lib/sprockets/engines.rb:1:in `<top (required)>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sprockets-2.10.0/lib/sprockets.rb:44:in `require'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sprockets-2.10.0/lib/sprockets.rb:44:in `<module:Sprockets>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sprockets-2.10.0/lib/sprockets.rb:3:in `<top (required)>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sprockets-rails-2.0.0/lib/sprockets/railtie.rb:5:in `require'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sprockets-rails-2.0.0/lib/sprockets/railtie.rb:5:in `<top (required)>'
+/home/rails/testerhome/config/application.rb:7:in `require'
+/home/rails/testerhome/config/application.rb:7:in `<top (required)>'
+/home/rails/testerhome/config/environment.rb:3:in `require'
+/home/rails/testerhome/config/environment.rb:3:in `<top (required)>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:127:in `require'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:127:in `boot_system'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/lib/sidekiq/cli.rb:70:in `parse'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/gems/sidekiq-2.5.3/bin/sidekiq:7:in `<top (required)>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/bin/sidekiq:23:in `load'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/bin/sidekiq:23:in `<main>'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/bin/ruby_executable_hooks:15:in `eval'
+/home/rails/.rvm/gems/ruby-2.0.0-p247/bin/ruby_executable_hooks:15:in `<main>'
+W, [2013-10-21T07:12:04.730873 #11149]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:12:07.031765 #11149]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:12:07.842506 #11149]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:12:07.870463 #11149]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:12:07.958197 #11149]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:12:07.989561 #11149]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:12:08.018157 #11149]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:12:08.049823 #11149]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:12:08.053678 #11149]  WARN -- : Overwriting existing field _type.
+W, [2013-10-21T07:12:08.055512 #11149]  WARN -- : Overwriting existing field _type.
+W, [2013-10-21T07:12:08.085492 #11149]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:12:08.119807 #11149]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:12:08.148034 #11149]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:12:08.152139 #11149]  WARN -- : Overwriting existing field image.
+W, [2013-10-21T07:12:08.246141 #11149]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:12:08.279402 #11149]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:12:08.309623 #11149]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:12:08.340549 #11149]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:12:08.370351 #11149]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:12:08.399152 #11149]  WARN -- : Overwriting existing field _id.
+W, [2013-10-21T07:12:08.407602 #11149]  WARN -- : Overwriting existing field last_reply_id.
+2013-10-20T23:12:08Z 11149 TID-4tzso INFO: Booting Sidekiq 2.5.3 with Redis at redis://127.0.0.1:6379/0
+2013-10-20T23:12:08Z 11149 TID-4tzso INFO: Running in ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-linux]
+2013-10-20T23:12:08Z 11149 TID-4tzso INFO: See LICENSE and the LGPL-3.0 for licensing details.
+2013-10-20T23:12:08Z 11149 TID-4tzso INFO: Starting processing, hit Ctrl-C to stop
+2013-10-20T23:20:24Z 11149 TID-w0qs4 ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T23:20:24Z 11149 TID-w0qs4 ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T23:20:24Z 11149 TID-w0qs4 ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T23:20:24Z 11149 TID-w0qs4 ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T23:20:24Z 11149 TID-w0qs4 ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T23:20:24Z 11149 TID-w0qs4 ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T23:20:24Z 11149 TID-w0qs4 ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T23:20:24Z 11149 TID-w0qs4 ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-20T23:20:24Z 11149 TID-w0qs4 ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-20T23:20:24Z 11149 TID-w0qs4 ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-21T02:14:55Z 11149 TID-p1a7c Sidekiq::Extensions::DelayedMailer JID-755fc4558e31f9f75fb730df INFO: start
+2013-10-21T02:14:55Z 11149 TID-p1a7c Sidekiq::Extensions::DelayedMailer JID-755fc4558e31f9f75fb730df INFO: done: 0.2 sec
+2013-10-21T02:23:08Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-a3d9504155d31092c1849a3c INFO: start
+2013-10-21T02:23:08Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-a3d9504155d31092c1849a3c INFO: done: 0.026 sec
+2013-10-21T02:23:16Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-30187509cd199f7e43386375 INFO: start
+2013-10-21T02:23:16Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-30187509cd199f7e43386375 INFO: done: 0.002 sec
+2013-10-21T02:32:50Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-eadbaf8c22df4beef5a674f1 INFO: start
+2013-10-21T02:32:50Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-eadbaf8c22df4beef5a674f1 INFO: done: 0.003 sec
+2013-10-21T02:33:47Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-d33ace2ae79d1e47bd971ea7 INFO: start
+2013-10-21T02:33:47Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-d33ace2ae79d1e47bd971ea7 INFO: done: 0.002 sec
+2013-10-21T02:40:56Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-8c8a81d66935d33d23050f3c INFO: start
+2013-10-21T02:40:56Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-8c8a81d66935d33d23050f3c INFO: done: 0.184 sec
+2013-10-21T02:41:17Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-5ce6849af852953f36712192 INFO: start
+2013-10-21T02:41:17Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-5ce6849af852953f36712192 INFO: done: 0.002 sec
+2013-10-21T02:44:19Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-50d708fdf2c9b09f8c450ff7 INFO: start
+2013-10-21T02:44:19Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-50d708fdf2c9b09f8c450ff7 INFO: done: 0.002 sec
+2013-10-21T02:46:00Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-9bc0f8d8e086824f342df24d INFO: start
+2013-10-21T02:46:00Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-9bc0f8d8e086824f342df24d INFO: done: 0.003 sec
+2013-10-21T02:46:11Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-b483e53de3e8ee0e5d6c57e8 INFO: start
+2013-10-21T02:46:11Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-b483e53de3e8ee0e5d6c57e8 INFO: done: 0.002 sec
+2013-10-21T02:47:32Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-99b28fff2e0a17ad8c849278 INFO: start
+2013-10-21T02:47:32Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-99b28fff2e0a17ad8c849278 INFO: done: 0.002 sec
+2013-10-21T02:50:45Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-a56236be4f15d93e5be6086b INFO: start
+2013-10-21T02:50:45Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-a56236be4f15d93e5be6086b INFO: done: 0.002 sec
+2013-10-21T02:51:00Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-7141189dd724bfb7a0198868 INFO: start
+2013-10-21T02:51:00Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-7141189dd724bfb7a0198868 INFO: done: 0.002 sec
+2013-10-21T02:51:15Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-5337f5d257b8c0d76b1496cf INFO: start
+2013-10-21T02:51:15Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-5337f5d257b8c0d76b1496cf INFO: done: 0.003 sec
+2013-10-21T03:14:43Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-70e75f0b42989ff0d0482760 INFO: start
+2013-10-21T03:14:43Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-70e75f0b42989ff0d0482760 INFO: done: 0.002 sec
+2013-10-21T03:18:47Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-93c05597caa7d3c59b592c35 INFO: start
+2013-10-21T03:18:47Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-93c05597caa7d3c59b592c35 INFO: done: 0.002 sec
+2013-10-21T03:19:01Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-19177f5fb239f2b58c4ad76b INFO: start
+2013-10-21T03:19:01Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-19177f5fb239f2b58c4ad76b INFO: done: 0.001 sec
+2013-10-21T03:19:04Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-1680b3342d8913a4668ad869 INFO: start
+2013-10-21T03:19:04Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-1680b3342d8913a4668ad869 INFO: done: 0.002 sec
+2013-10-21T03:19:18Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-6a7dd618437a12af1a55d7e7 INFO: start
+2013-10-21T03:19:18Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-6a7dd618437a12af1a55d7e7 INFO: done: 0.002 sec
+2013-10-21T03:21:50Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-5f7ceefcb60e895f9c411af7 INFO: start
+2013-10-21T03:21:50Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-5f7ceefcb60e895f9c411af7 INFO: done: 0.002 sec
+2013-10-21T03:25:33Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-7203bad5497605a0f10f2405 INFO: start
+2013-10-21T03:25:33Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-7203bad5497605a0f10f2405 INFO: done: 0.002 sec
+2013-10-21T03:32:36Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-3199c1f9fb47d08dec4fef79 INFO: start
+2013-10-21T03:32:36Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-3199c1f9fb47d08dec4fef79 INFO: done: 0.003 sec
+2013-10-21T03:33:53Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-52da207199b1f579b6546e1f INFO: start
+2013-10-21T03:33:53Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-52da207199b1f579b6546e1f INFO: done: 0.004 sec
+2013-10-21T03:39:23Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-8bfadf13f422e738dc252226 INFO: start
+2013-10-21T03:39:23Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-8bfadf13f422e738dc252226 INFO: done: 0.003 sec
+2013-10-21T03:40:53Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-9b64e143efb00cf43250ab58 INFO: start
+2013-10-21T03:40:53Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-9b64e143efb00cf43250ab58 INFO: done: 0.002 sec
+2013-10-21T03:42:33Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-c90b538a8270ffd867119b96 INFO: start
+2013-10-21T03:42:33Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-c90b538a8270ffd867119b96 INFO: done: 0.002 sec
+2013-10-21T05:05:05Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-059f7018dc498a14fae8d977 INFO: start
+2013-10-21T05:05:07Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-059f7018dc498a14fae8d977 INFO: done: 1.338 sec
+2013-10-21T05:05:35Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-667e54d8b48a25af0bcbf41f INFO: start
+2013-10-21T05:05:35Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-667e54d8b48a25af0bcbf41f INFO: done: 0.002 sec
+2013-10-21T05:22:05Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-9cbeace1506b8040f06ca582 INFO: start
+2013-10-21T05:22:05Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-9cbeace1506b8040f06ca582 INFO: done: 0.014 sec
+2013-10-21T05:26:21Z 11149 TID-p1a7c Sidekiq::Extensions::DelayedMailer JID-f2a52afdc974b84becd86a78 INFO: start
+2013-10-21T05:26:26Z 11149 TID-p1a7c Sidekiq::Extensions::DelayedMailer JID-f2a52afdc974b84becd86a78 INFO: done: 5.432 sec
+2013-10-21T05:26:31Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-9109dda8132bd67b4813fa44 INFO: start
+2013-10-21T05:26:31Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-9109dda8132bd67b4813fa44 INFO: done: 0.141 sec
+2013-10-21T05:26:44Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-f3a8061e6659836b1029b8eb INFO: start
+2013-10-21T05:26:44Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-f3a8061e6659836b1029b8eb INFO: done: 0.004 sec
+2013-10-21T05:27:24Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-f4090b6f9032d57c05e6923c INFO: start
+2013-10-21T05:27:24Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-f4090b6f9032d57c05e6923c INFO: done: 0.004 sec
+2013-10-21T06:33:11Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-f77afe1c1ddaf7fe8bba9b43 INFO: start
+2013-10-21T06:33:11Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-f77afe1c1ddaf7fe8bba9b43 INFO: done: 0.063 sec
+2013-10-21T06:34:01Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-2846ad647cc70b2783b44114 INFO: start
+2013-10-21T06:34:01Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-2846ad647cc70b2783b44114 INFO: done: 0.002 sec
+2013-10-21T07:15:46Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-3d2117ece657537d46570280 INFO: start
+2013-10-21T07:15:46Z 11149 TID-p1a7c Mongoid::DelayedDocument JID-3d2117ece657537d46570280 INFO: done: 0.003 sec
+2013-10-21T09:04:45Z 11149 TID-p1a7c Sidekiq::Extensions::DelayedMailer JID-d89a1adf86964488f50c476f INFO: start
+2013-10-21T09:04:45Z 11149 TID-p1a7c Sidekiq::Extensions::DelayedMailer JID-d89a1adf86964488f50c476f INFO: done: 0.04 sec
+2013-10-21T09:28:25Z 11149 TID-w0qs4 ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-21T09:28:25Z 11149 TID-w0qs4 ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-21T09:28:25Z 11149 TID-w0qs4 ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-21T09:28:25Z 11149 TID-w0qs4 ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-21T09:28:25Z 11149 TID-w0qs4 ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-21T09:28:25Z 11149 TID-w0qs4 ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-21T09:28:25Z 11149 TID-w0qs4 ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-21T09:28:25Z 11149 TID-w0qs4 ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
+2013-10-21T09:28:25Z 11149 TID-w0qs4 ERROR: Error fetching message: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+2013-10-21T09:28:25Z 11149 TID-w0qs4 ERROR: /home/rails/.rvm/gems/ruby-2.0.0-p247/gems/redis-3.0.2/lib/redis/client.rb:268:in `rescue in establish_connection'
