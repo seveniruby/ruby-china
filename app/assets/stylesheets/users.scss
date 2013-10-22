@@ -119,6 +119,9 @@ table.node_topics {
     .avatar {
       img { width:48px; height:48px; }
     }
+    .name {
+     width: 80px; overflow: hidden;
+    }
   }
 }
 

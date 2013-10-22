@@ -1,5 +1,6 @@
 .bundle
 tmp/
+public/
 coverage/
 db/*.sqlite3
 tmp/
