@@ -17,6 +17,11 @@ class TopicsController < ApplicationController
     @topics = Topic.recent.without_body.limit(20).includes(:node,:user, :last_reply_user)
     render :layout => false
   end
+  
+  def feedgood
+    @topics = Topic.excellent.recent.without_body.limit(20).includes(:node,:user, :last_reply_user)
+    render :layout => false
+  end
 
   def node
     @node = Node.find(params[:id])

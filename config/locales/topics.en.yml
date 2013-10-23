@@ -11,6 +11,7 @@
     tips_for_create_topic: "Tips for New Topics"
     start_a_new_topic_button: "Start a new topic"
     subscribe_with_rss: "Subscribe to %{name} RSS feed."
+    subscribe_good_with_rss: "Subscribe to %{name} excellent RSS feed."
     submit_reply: "Reply"
     hot_topic: "Popular Topics"
     topic_list: "Topic List"
