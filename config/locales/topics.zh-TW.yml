@@ -11,6 +11,7 @@
     tips_for_create_topic: "發表提示"
     start_a_new_topic_button: "新增話題"
     subscribe_with_rss: "訂閱%{name}社區新話題"
+    subscribe_good_with_rss: "訂閱%{name}社區精华話題"
     submit_reply: "送出回應"
     topic_list:
       hot_topic: "熱門話題"

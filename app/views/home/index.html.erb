@@ -7,6 +7,9 @@
   </div>
   <div class="more">
     <%= link_to "查看更多精华贴...", excellent_topics_path %>
+    <% if not mobile? %>
+      <%= link_to(raw("<span class='icon icons_rss'></span>"), feedgood_topics_url, :title => t("topics.subscribe_good_with_rss", :name => Setting.app_name), :class => "feed") %>
+    <% end %>
   </div>
 </div>
 <% if !mobile? %>

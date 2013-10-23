@@ -54,6 +54,7 @@ TesterHome::Application.routes.draw do
       get :popular
       get :excellent
       get :feed, defaults: { format: 'xml' }
+      get :feedgood, defaults: { format: 'xml' }
       post :preview
     end
     resources :replies
