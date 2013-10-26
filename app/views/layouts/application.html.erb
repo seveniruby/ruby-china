@@ -35,6 +35,7 @@ ruby-china.org
         <%= render_list :class => "nav" do |li|
            li << link_to(t("menu.topics"), topics_path)
            li << link_to(t("menu.wiki"), pages_path )
+           li << link_to(t("menu.blog"), 'http://www.testerhome.com' )
            li << link_to(t("menu.sites"), sites_path ) if !mobile?
            li << link_to(t("menu.users"), users_path) if !mobile?
         end %>

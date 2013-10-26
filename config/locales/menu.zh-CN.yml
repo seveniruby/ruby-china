@@ -75,6 +75,7 @@
   menu:
     topics: "社区"
     wiki: "Wiki"
+    blog: "Blog"
     users: "会员"
     cpanel: "后台"
     notes: "记事本"
