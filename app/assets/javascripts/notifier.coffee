@@ -4,7 +4,7 @@ class Notifier
     @checkOrRequirePermission()
 
   hasSupport: ->
-    window.webkitNotifications?  
+    window.webkitNotifications?
 
   requestPermission: (cb) ->
     window.webkitNotifications.requestPermission (cb)
@@ -43,14 +43,15 @@ class Notifier
     window.location.href = url
 
   notify: (avatar, title, content, url = null) ->
+    @checkOrRequirePermission()
     if @enableNotification
-      if not window.Notification
+      if window.webkitNotifications && navigator.userAgent.indexOf("Chrome") > -1
         popup = window.webkitNotifications.createNotification(avatar, title, content)
         if url
           popup.onclick = ->
             window.parent.focus()
             $.notifier.visitUrl(url)
-      else
+      else if window.Notification
         opts =
           body : content
           onclick : ->

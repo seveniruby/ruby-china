@@ -337,4 +337,13 @@ class User
   def ensure_private_token!
     self.update_private_token if self.private_token.blank?
   end
+
+  def avatar_large_url
+    if avatar?
+      avatar.url(:large)
+    else
+      img = "#{Setting.gravatar_proxy}/avatar/#{email_md5}.png?s=#{64 * 2}&d=404"
+    end
+  end
+
 end

@@ -27,6 +27,7 @@ class Reply
 
   delegate :title, :to => :topic, :prefix => true, :allow_nil => true
   delegate :login, :to => :user, :prefix => true, :allow_nil => true
+  delegate :avatar_large_url, :to => :user, :prefix => true, :allow_nil => true
 
   validates_presence_of :body
   validates_uniqueness_of :body, :scope => [:topic_id, :user_id], :message => "不能重复提交。"
@@ -51,8 +52,8 @@ class Reply
       self.topic.touch
     end
   end
-  
-  
+
+
 
   after_create do
     Reply.delay.send_topic_reply_notification(self.id)
