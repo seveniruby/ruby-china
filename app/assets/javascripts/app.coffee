@@ -131,7 +131,7 @@ window.App =
         new_title = "(#{json.count}) #{new_title}"
         url = App.fixUrlDash("#{ROOT_URL}#{json.content_path}")
         console.log url
-        $.notifier.notify("",json.title,json.content,url)
+        $.notifier.notify(json.avatar,json.title,json.content,url)
       else
         span.removeClass("badge-error")
       span.text(json.count)
