@@ -1,1 +1,2 @@
 thin -O -C config/thin.yml restart
+cd faye_server && bundle exec thin restart -C thin.yml
